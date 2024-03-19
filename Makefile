@@ -6,12 +6,12 @@
 #    By: xamayuel <xamayuel@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/09 08:26:34 by xamayuel          #+#    #+#              #
-#    Updated: 2024/03/13 21:18:21 by xamayuel         ###   ########.fr        #
+#    Updated: 2024/03/19 14:51:53 by xamayuel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = ft__irc
-SRCS     := main.cpp show_logo.cpp Logger.cpp
+SRCS     := main.cpp show_logo.cpp Logger.cpp Server.cpp
 OBJS_DIR := .obj/
 OBJS     := $(SRCS:.cpp=.o)
 OBJS_PREF:= $(addprefix $(OBJS_DIR),$(OBJS))
